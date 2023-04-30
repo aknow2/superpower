@@ -17,7 +17,7 @@ function App() {
         <SceneComponent id="canvas" onSceneReady={onSceneReady} ></SceneComponent>
         <div style={{fontSize: 24, width: '100%', position: 'absolute', top: 0, display: 'flex', justifyContent: 'space-between', padding: 16 }}>
           <button onClick={init}>
-            Use the Force
+            SUPERPOWER!
           </button>
         </div>
         <canvas id={"videoCanvas"} style={{ position: 'absolute', right: 16, top: 16 }} width={200} height={200}></canvas>
